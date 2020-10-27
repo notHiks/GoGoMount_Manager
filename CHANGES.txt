@@ -1,0 +1,18 @@
+tag 742e3e9f6a63f5701316fa9aa79a0f26e054105f 3.1
+Author:	SLOKnightfall <SLOKnightfall@gmail.com>
+Date:	Thu Sep 13 21:08:46 2018 -0700
+
+bugfix
+
+commit e44d8aa3d5f821cf30d87f5bacb80d46eb5b48a6
+Author: SLOKnightfall <SLOKnightfall@gmail.com>
+Date:   Thu Sep 13 21:08:12 2018 -0700
+
+    Fix for errors when setting favorites or trying to drag a mount from the journal
+
+commit 698f58c66bd53ae0949449b37e279f38da4ba050
+Author: SLOKnightfall <SLOKnightfall@gmail.com>
+Date:   Tue Aug 28 16:36:43 2018 -0700
+
+    Changed pkgmeta to generate auto change logs
+

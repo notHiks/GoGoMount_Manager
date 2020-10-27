@@ -1,0 +1,44 @@
+## Interface: 90001
+## Title: GoGoMount_Manager (3.1)
+## Version: 3.1
+## Game Version: 9.0.1
+## Author: SLOKnightfall
+## Notes: Integrates GoGoMounts Preferred and Excluded listing directly into the Mount List and adds profile support
+## Dependencies: GoGoMount
+## OptionalDeps:
+## SavedVariables: GoGoMount_ManagerDB
+
+#Libraries
+Libs\LibStub-1.0\LibStub.lua
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceHook-3.0\AceHook-3.0.xml
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\LibDualSpec-1.0\LibDualSpec-1.0.lua
+Libs\MSA-DropDownMenu-1.0\MSA-DropDownMenu-1.0.xml
+
+#Localization
+Localization\localization-enUS.lua
+Localization\localization-deDE.lua
+Localization\localization-esES.lua
+Localization\localization-esMX.lua
+Localization\localization-frFR.lua
+Localization\localization-itIT.lua
+Localization\localization-koKr.lua
+Localization\localization-ptBR.lua
+Localization\localization-ruRU.lua
+Localization\localization-zhCN.lua
+Localization\localization-zhTW.lua
+
+#Core Files
+GoGoMount_Manager.lua
+
+#MountJournal
+MountJournal\Filter.lua
+MountJournal\MountJournal.lua
+MountJournal\Dropdown.lua
